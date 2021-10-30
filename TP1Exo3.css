@@ -1,0 +1,60 @@
+/* qst1 */
+/* les ressources externes/locales qui sont référencées dans cette page: image */
+/* qst2 */
+img {
+    border: red 1px solid;
+}
+/* qst3 */
+h1 {
+    background-color: black;
+}
+/* qst4 */
+h1,h2 {
+color: darkgray;
+}
+/* qst5 */
+.s h2{
+    border: green 2px solid;
+}
+/* qst6 */
+#mon > span {
+    color: pink;  
+}
+/* qst7 */
+div span {border: red solid 1px ;} 
+/* qst8 */
+.m > div > span{
+background-color: yellow;
+}
+/* qst9 */
+#wed h2:hover{
+   color: green;
+}
+/* qst10 */
+#mon h2:hover ,#tue h2:hover{
+  color: red;
+}
+/* qst11 */
+h1,h2 {
+   color: pink;
+   }
+/* qst12 */
+
+/*qst13*/
+li:first-of-type  {font-weight: bold;}
+/* qst14 */
+li:first-of-type +li{
+    color: red;
+}
+/* qst15 */
+#tue span:first-child{
+    color: blue;
+}
+/* qst16 */
+#tue span:nth-child(2){
+    font-size: 200%;
+}
+/* qst17 */
+li:nth-of-type(9){color: blue;}
+/* qst18 */
+li:nth-of-type(5n+3){color: green;}
